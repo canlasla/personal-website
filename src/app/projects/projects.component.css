@@ -1,7 +1,3 @@
-.content {
-  position: center;
-}
-
 #bg {
   position: fixed;
   top: 0;
@@ -11,4 +7,92 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#main {
+  top: 55%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 870px;
+  height: 620px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: bisque;
+  text-decoration: underline;
+}
+
+.project-title {
+  display: block;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+
+h4 {
+  color: black;
+  flex-wrap: nowrap;
+  font-size: 34px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.card {
+  margin: 10px 10px;
+  padding: 10px;
+  float: left;
+  background-color: rgb(124, 181, 232);
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.appear {
+  display: none;
+  transition: 1s;
+  width: 200px;
+}
+
+.card:hover {
+  background-color: rgb(3, 47, 84);
+  transform: scale(1.3);
+}
+
+.card:hover > .appear {
+  top: 50%;
+  display: block;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+
+.card:hover > .project-title {
+  display: none;
+}
+
+p {
+  border-radius: 50%;
+  display: block;
+  font-size: 10px;
+  color: white;
+  text-align: justify;
+  line-height: 1.4;
+}
+
+a:link,
+a:visited {
+  color: white;
 }

@@ -8,8 +8,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { CoursesComponent } from './courses/courses.component';
 import { ContactComponent } from './contact/contact.component';
+import { GisComponent } from './gis/gis.component';
+import { NewhacksComponent } from './newhacks/newhacks.component';
 
 @NgModule({
   declarations: [
@@ -18,8 +19,9 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     AboutComponent,
     ProjectsComponent,
-    CoursesComponent,
     ContactComponent,
+    GisComponent,
+    NewhacksComponent,
   ],
   imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule],
   providers: [],
