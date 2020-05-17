@@ -1,0 +1,64 @@
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#main {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  /* border: 1px solid red; */
+  width: 850px;
+}
+
+#about-title {
+  display: block;
+
+  /* border: 1px solid red; */
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: bisque;
+  text-decoration: underline;
+}
+
+#pic,
+#info {
+  float: left;
+
+  width: 350px;
+  height: 350px;
+  display: inline-block;
+  /* border: 1px solid red; */
+  padding: 0px 30px;
+}
+
+img {
+  border-radius: 50%;
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p {
+  flex-wrap: wrap;
+  /* display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0; */
+  color: whitesmoke;
+  text-align: justify;
+  font-size: 18px;
+
+  /*top: 50%;
+  position: absolute;
+  transform: translate(0%, -50%); */
+}
