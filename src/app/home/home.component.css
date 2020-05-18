@@ -10,8 +10,11 @@
 }
 
 #intro {
-  width: 800px;
-  display: block;
+  max-width: 500px;
+  width: 75%;
+  text-align: center;
+
+  display: inline-block;
   flex-wrap: wrap;
   top: 50%;
   left: 50%;
@@ -21,7 +24,7 @@
 
 #greeting,
 #name {
-  display: block;
+  display: inline-block;
 }
 
 h3 {
@@ -32,18 +35,18 @@ h3 {
   color: whitesmoke;
   text-align: center;
   font-size: 60px;
+  line-height: 1.1;
 }
 
 h1 {
   font-family: "IBM Plex Serif";
 
-  /* border: 1px solid red; */
   flex-wrap: nowrap;
-  margin-bottom: 0;
-  margin-top: 0;
+
   color: bisque;
   text-align: center;
   font-size: 80px;
+  line-height: 1.1;
 }
 
 span {
