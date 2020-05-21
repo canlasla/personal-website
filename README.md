@@ -1,1 +1,1 @@
-https://canlasla.github.io/personal-website/
+My personal website. This was made to practice some Angular, TypeScript, and HTML/CSS.
